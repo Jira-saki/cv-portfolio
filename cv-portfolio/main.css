@@ -1,0 +1,96 @@
+/* navy bg #0a192f
+light navy bg #112240
+lightest navy bg #233554
+slate #8892b0
+light slate #a8b2d1
+lightest slate #ccd6f6 
+white #e6f1ff
+green #64ffda
+*/
+
+body {
+    font-family: serif;
+}
+
+.topnav {
+    overflow: hidden;
+    margin-left: 50px;
+    padding-left: 20px;
+    padding-right: 25px;
+}
+.topnav a {
+    float: left;
+    color: #0a192f;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.topnav a:hover {
+    background-color: aliceblue;
+    color: #112240 ;
+}
+.topnav a.active {
+    background-color: #f0f5ff;
+    color: #0a192f;
+}
+.topnav-right {
+    float: right;
+}
+
+.container-context {
+    text-align: left;
+    color: #233554;
+    border: 1px solid #454647;
+    padding: 3rem 3rem 5rem 5rem;   
+    margin: 3rem 5rem 3rem 5rem;
+}
+
+
+li a.active {
+    color: #0a192f;
+}
+
+.container-heading {
+    text-align: left;
+    color: #233554;
+    border: 1px solid #a8b2d1;
+    padding: 3rem 3rem;
+    margin-top: 3rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    margin-bottom: 5rem;
+}
+
+.button {
+    color: white;
+    text-decoration: none;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white;
+    color: #f30c32;
+    border: 2px solid #233554;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.footer {
+    position:fixed;
+    height: 100px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #233554;
+    color: #64ffda;
+    text-align: center;
+}
